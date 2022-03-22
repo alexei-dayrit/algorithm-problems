@@ -1,3 +1,2 @@
 # practice-problems
-Coding challenges
-Log of all the coding challenges I completed on other sites.
+Log of all my completed coding challenges to practice for technical interview
