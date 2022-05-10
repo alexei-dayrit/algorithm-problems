@@ -6,6 +6,9 @@ My solutions to practice algorithm problems.
 
 ### LeetCode
 - Two Sum
+- Contains Duplicate
+- Best Time to Sell and Buy Stock
+
 ### CodeSignal
 - add
 - centuryFromYear
