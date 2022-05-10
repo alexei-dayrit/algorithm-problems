@@ -2,10 +2,12 @@ var maxProfit = function (prices) {
   let profit = 0;
   let lowest = prices[0];
   for (let i = 0; i < prices.length; i++) {
-    let potentialProfit = prices[a] - prices[i];
     if (prices[i] < lowest) {
       lowest = prices[i];
     }
+
+    let potentialProfit = prices[i] - lowest;
+
     if (potentialProfit > profit) {
       profit = potentialProfit;
     }
