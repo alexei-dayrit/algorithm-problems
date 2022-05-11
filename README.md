@@ -8,6 +8,7 @@ My solutions to practice algorithm problems.
 - Two Sum
 - Contains Duplicate
 - Best Time to Sell and Buy Stock
+- Valid Anagram
 
 ### CodeSignal
 - add
