@@ -9,6 +9,7 @@ My solutions to practice algorithm problems.
 - Contains Duplicate
 - Best Time to Sell and Buy Stock
 - Valid Anagram
+- Valid Parentheses
 
 ### CodeSignal
 - add
