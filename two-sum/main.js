@@ -1,11 +1,10 @@
 var twoSum = function (nums, target) {
-  const result = [];
+  const obj = {};
   for (let i = 0; i < nums.length; i++) {
-    for (let a = i + 1; a < nums.length; a++) {
-      if ((nums[i] + nums[a]) === target) {
-        result.push(i, a);
-      }
+    let neededNum = target - nums[i];
+    if (obj[nums[i]] !== undefined) {
+      return [obj[nums[i]], i]
     }
+    obj[neededNum] = i;
   }
-  return result;
 };
