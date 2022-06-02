@@ -1,4 +1,4 @@
-# practice-problems
+# Algorithm-problems
 
 My solutions to practice algorithm problems.
 
@@ -10,6 +10,8 @@ My solutions to practice algorithm problems.
 - Best Time to Sell and Buy Stock
 - Valid Anagram
 - Valid Parentheses
+- Maximum Subarray
+- Product of Array Except Self
 
 ### CodeSignal
 - add
