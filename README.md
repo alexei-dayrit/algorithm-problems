@@ -12,6 +12,8 @@ My solutions to practice algorithm problems.
 - Valid Parentheses
 - Maximum Subarray
 - Product of Array Except Self
+- 3Sum
+- Merge Intervals
 
 ### CodeSignal
 - add
