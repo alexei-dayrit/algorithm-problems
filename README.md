@@ -14,6 +14,7 @@ My solutions to practice algorithm problems.
 - Product of Array Except Self
 - 3Sum
 - Merge Intervals
+- Group Anagrams
 
 ### CodeSignal
 - add
