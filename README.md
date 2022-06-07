@@ -15,6 +15,7 @@ My solutions to practice algorithm problems.
 - 3Sum
 - Merge Intervals
 - Group Anagrams
+- Reverse Linked List
 
 ### CodeSignal
 - add
