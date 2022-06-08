@@ -16,6 +16,7 @@ My solutions to practice algorithm problems.
 - Merge Intervals
 - Group Anagrams
 - Reverse Linked List
+- Palindrome Number
 
 ### CodeSignal
 - add
