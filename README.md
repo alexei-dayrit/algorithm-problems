@@ -17,6 +17,9 @@ My solutions to practice algorithm problems.
 - Group Anagrams
 - Reverse Linked List
 - Palindrome Number
+- First Palindrome
+- Valid Palindrome
+- Odd Even Linked List
 
 ### CodeSignal
 - add
