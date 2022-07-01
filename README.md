@@ -20,6 +20,7 @@ My solutions to practice algorithm problems.
 - First Palindrome
 - Valid Palindrome
 - Odd Even Linked List
+- Length of Last Word
 
 ### CodeSignal
 - add
