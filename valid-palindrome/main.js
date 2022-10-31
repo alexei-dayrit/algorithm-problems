@@ -40,3 +40,25 @@ var isPalindrome = function (s) {
 
 const s = 'A man, a plan, a canal: Panama';
 isPalindrome(s);
+
+/* Brute force solution
+var isPalindrome = function (s) {
+  const isValidChar = char => {
+    const validChars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+    return validChars.indexOf(char.toLowerCase()) > -1;
+  };
+
+  const loweredString = s.toLowerCase();
+  const splitArray = loweredString.split('');
+  let newString = '';
+
+  for (let i = 0; i < splitArray.length; i++) {
+    const current = splitArray[i];
+    if (isValidChar(current)) {
+      newString += current;
+    }
+  }
+  const reversedString = newString.split('').reverse().join('');
+  return newString === reversedString;
+};
+*/
