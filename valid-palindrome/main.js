@@ -26,24 +26,17 @@ const isValidChar = char => {
   return validChars.indexOf(char.toLowerCase()) > -1;
 };
 
-/* Brute force solution
+/* Alternate solution using regex, reverse, and join
+
+const removeNonAlphanumeric = string => string.toLowerCase().replace(/[\W_]/g, '');
+
 var isPalindrome = function (s) {
-  const isValidChar = char => {
-    const validChars = 'abcdefghijklmnopqrstuvwxyz0123456789';
-    return validChars.indexOf(char.toLowerCase()) > -1;
-  };
-
-  const loweredString = s.toLowerCase();
-  const splitArray = loweredString.split('');
-  let newString = '';
-
-  for (let i = 0; i < splitArray.length; i++) {
-    const current = splitArray[i];
-    if (isValidChar(current)) {
-      newString += current;
-    }
-  }
-  const reversedString = newString.split('').reverse().join('');
-  return newString === reversedString;
+  const lettersOnly = removeNonAlphanumeric(s);
+  const reversedString = lettersOnly.split('').reverse().join('');
+  return lettersOnly === reversedString;
 };
+
 */
+
+const s = 'A man, a plan, a canal: Panama';
+isPalindrome(s);
